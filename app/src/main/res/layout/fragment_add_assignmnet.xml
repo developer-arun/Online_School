@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FE6EF1E3"
+    tools:context=".Add_assignmnet">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/background_image"
+        android:src="@drawable/background_image" />
+
+    <TextView
+        android:id="@+id/textview_select_file"
+        android:layout_width="322dp"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="220dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Select a file to upload"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button_upload_assignment"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/custom_btn_green"
+        android:text="upload file"
+        android:textColor="#FF6D00" />
+
+    <Spinner
+        android:id="@+id/spinner_select_class"
+        android:layout_width="69dp"
+        android:layout_height="22dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="275dp"
+        android:background="@color/design_default_color_background"
+        android:backgroundTint="#F8F7F7" />
+
+    <TextView
+        android:id="@+id/textView_select_class_addass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="300dp"
+        android:background="@android:color/transparent"
+        android:text="Select class from below"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/editText_assignment_desc_addass"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:hint="enter description about assignment"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/editText_assignment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="110dp"
+        android:ems="10"
+        android:hint="enter the assignment title "
+        android:inputType="textPersonName" />
+
+</FrameLayout>

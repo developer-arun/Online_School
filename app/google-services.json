@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1084906824800",
+    "firebase_url": "https://online-school-20.firebaseio.com",
+    "project_id": "online-school-20",
+    "storage_bucket": "online-school-20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084906824800:android:b2d924dbdd720c92bc8f05",
+        "android_client_info": {
+          "package_name": "com.example.onlineschool20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084906824800-56k1nt6i0jf19m1l0n080k66npon4g69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYKzJwu933frNRdu2_fTDa76zUNSMraN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084906824800-56k1nt6i0jf19m1l0n080k66npon4g69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

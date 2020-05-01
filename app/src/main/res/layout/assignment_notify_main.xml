@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="7dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textView_assignment_title_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:text="Assignment"
+            android:textColor="#EA0000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_title_assignment_notify"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Title assignment"
+            android:textColor="#0B0A0A"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_assignment_desc_notify"
+            android:layout_width="383dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Description_assignment"
+            android:textColor="#050505"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView_faculty_name_notify"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginBottom="5dp"
+            android:text="Faculty"
+            android:textColor="#151212"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView_uploaded_time"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="end"
+            android:text="Time"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView_class_title_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="Class :"
+            android:textColor="#090808"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView_studentclass_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginLeft="43dp"
+            android:layout_marginBottom="5dp"
+            android:text="studentclass"
+            android:textColor="#070606"
+            android:textSize="15sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

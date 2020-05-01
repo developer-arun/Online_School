@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/update_profile_framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_profile" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageButton
+            android:id="@+id/student_profile_img_btn_update"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_account_circle_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView_student_firstname"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Firstname"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/edittext_student_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="enter your firstname" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView_student_name_update"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Lastname"
+                android:textColor="#100D0D" />
+
+            <EditText
+                android:id="@+id/edittext_student_name_update_profile"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="enter your lastname"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView_student_phone_title"
+                android:layout_width="170dp"
+                android:layout_height="39dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Email ID"
+                android:textColor="#100D0D" />
+
+            <EditText
+                android:id="@+id/edittext_student_phone_profile_update"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="enter your email id"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView_class_student_update"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Class"
+                android:textColor="#0C0C0C" />
+
+            <EditText
+                android:id="@+id/editText_class_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="enter your class"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save_upload_profile"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/custom_btn_green"
+        android:text="Save"
+        android:textColor="#FF6D00" />
+
+
+</FrameLayout>
